@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="dht11-jetson",
+    name="dht11j",
     version="0.1.0",
     author="MarkInada",
     author_email="",

@@ -1,5 +1,5 @@
 import Jetson.GPIO as GPIO
-import dht11-jetson
+import dht11j
 import time
 import datetime
 
@@ -8,7 +8,7 @@ GPIO.setwarnings(True)
 GPIO.setmode(GPIO.BCM)
 
 # read data using pin 14
-instance = dht11.DHT11(pin=14)
+instance = dht11j.DHT11(pin=14)
 
 try:
 	while True:
