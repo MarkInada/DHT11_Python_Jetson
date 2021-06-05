@@ -1,5 +1,5 @@
-import RPi.GPIO as GPIO
-import dht11
+import Jetson.GPIO as GPIO
+import dht11-jetson
 import time
 import datetime
 
